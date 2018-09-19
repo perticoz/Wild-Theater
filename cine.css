@@ -1,0 +1,223 @@
+
+
+
+/* police*/
+
+@import url(https://fonts.googleapis.com/css?family=Eczar);
+
+
+/* style images*/
+
+.photo, .affiche 
+{
+  height: 100% ; width: 100%; margin-bottom: 15px;border: 2px solid white;
+    box-shadow: 0 3px 1px rgba(0, 0, 0, 0.3);
+}
+/* style body*/
+
+#bodycine 
+{ 
+  background-color:#DDD; padding-top: 50px;
+}
+
+#bodyfilm 
+{ 
+  background-color:#DDD; margin-top: 280px;
+}
+
+/* style navbar*/
+
+.navbar-right 
+{
+  margin-right: 0px;
+}
+
+/* style jumbotron*/
+
+#jumbofilm, #jumbocine
+{
+  padding-top: 20px; padding-bottom: 20px;
+}
+
+/* style texte*/
+
+.h2film
+{
+  margin-top: -280px; padding-top: 310px;
+}
+
+h1,h2,h3,h4,.h2
+{
+  font-family: Eczar, serif
+}
+
+#tailletitre
+{
+  font-size: 25px; margin-top: 10px;
+}
+
+.h2 
+{
+  margin-bottom:5%;
+}
+
+th 
+{ 
+  text-align: center; 
+}
+
+input[type="text"] 
+{
+ height: 46px; 
+}
+
+p 
+{ 
+  font-family: Eczar, serif; font-size : 16px;
+}
+
+.red 
+{
+  color : #e2001a;
+}
+
+/* style carousel*/
+
+.carousel-inner
+{
+  border: 5px solid white;box-shadow: 0 3px 3px rgba(0, 0, 0, 0.3);
+}
+
+.soustitre 
+{
+  text-decoration: none; color: white;
+}
+
+.carousel-caption
+{ 
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+/* style modal*/
+
+#boutonmodal
+{
+  position : absolute; top:0px; right:0px; color: white; font-size: 40px; background-color: red;
+}
+
+.photomodal 
+{
+  width : 300px; height : 150px;
+}
+
+.modal-content 
+{
+	height: 150px; width: 300px; position: relative;
+}
+
+.modal-dialog
+{
+  position: absolute;
+  top: 200px;
+  right: 0px;
+  bottom: 0;
+  left: 0;
+}
+
+
+/* media queries*/
+
+@media (min-width: 768px)
+{
+  
+  .h2film
+  {
+  margin-top: -300px; padding-top: 330px;
+  }
+
+  #bodyfilm 
+  { 
+  background-color:#DDD; margin-top: 300px;
+  }
+
+  #tailletitre 
+  {
+    font-size: 30px;
+  }
+
+  #bodycine
+  {
+    padding-top: 64px;
+  }	
+
+  #bandeannonce
+  {
+    width : 600px; height : 345px;
+  }
+
+  .photomodal 
+  {
+    width : 500px; height : 300px;
+  }
+
+  .modal-content
+  {
+	height: 300px; width: 500px; position: relative;
+  }
+
+  .navbar-collapse.collapsing 
+  {
+  -webkit-transition: height 0.01s;
+  -moz-transition: height 0.01s;
+  -ms-transition: height 0.01s;
+  -o-transition: height 0.01s;
+  transition: height 0.01s;
+  }
+
+  p 
+  { 
+  font-family: Eczar, serif; font-size : 18px;
+  }
+
+}
+
+
+
+@media (min-width: 992px) 
+{
+  
+  .photomodal 
+  {
+    width : 788px; height : 419px;
+  }
+
+  .modal-content 
+  {
+	height: 419px; width: 788px; position: relative;
+  }
+
+}
+
+@media (min-width: 1200px)
+{
+	.photomodal 
+  {
+    width : 850px; height : 452px;
+  }
+
+  .modal-content 
+  {
+	height: 452px; width: 850px; position: relative;
+  }
+  
+}
+
+
+
+
+
+
+
+
+
